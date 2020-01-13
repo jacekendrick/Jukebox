@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		EDB76F1423C98F80005BD0B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB76F1323C98F80005BD0B5 /* AppDelegate.swift */; };
 		EDB76F1623C98F80005BD0B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB76F1523C98F80005BD0B5 /* SceneDelegate.swift */; };
-		EDB76F1823C98F80005BD0B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB76F1723C98F80005BD0B5 /* ViewController.swift */; };
 		EDB76F1B23C98F80005BD0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB76F1923C98F80005BD0B5 /* Main.storyboard */; };
 		EDB76F1D23C98F80005BD0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB76F1C23C98F80005BD0B5 /* Assets.xcassets */; };
 		EDB76F2023C98F80005BD0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB76F1E23C98F80005BD0B5 /* LaunchScreen.storyboard */; };
 		EDB76F2B23C98F80005BD0B5 /* GenreMusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB76F2A23C98F80005BD0B5 /* GenreMusicPlayerTests.swift */; };
 		EDB76F3623C98F80005BD0B5 /* GenreMusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB76F3523C98F80005BD0B5 /* GenreMusicPlayerUITests.swift */; };
+		EDB76F4423C98FA4005BD0B5 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB76F4323C98FA4005BD0B5 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EDB76F1023C98F80005BD0B5 /* GenreMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenreMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB76F1023C98F80005BD0B5 /* Jukebox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jukebox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB76F1323C98F80005BD0B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDB76F1523C98F80005BD0B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDB76F1723C98F80005BD0B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDB76F1A23C98F80005BD0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDB76F1C23C98F80005BD0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB76F1F23C98F80005BD0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		EDB76F3123C98F80005BD0B5 /* GenreMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenreMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB76F3523C98F80005BD0B5 /* GenreMusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreMusicPlayerUITests.swift; sourceTree = "<group>"; };
 		EDB76F3723C98F80005BD0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB76F4323C98FA4005BD0B5 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		EDB76F1123C98F80005BD0B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDB76F1023C98F80005BD0B5 /* GenreMusicPlayer.app */,
+				EDB76F1023C98F80005BD0B5 /* Jukebox.app */,
 				EDB76F2623C98F80005BD0B5 /* GenreMusicPlayerTests.xctest */,
 				EDB76F3123C98F80005BD0B5 /* GenreMusicPlayerUITests.xctest */,
 			);
@@ -101,11 +101,11 @@
 			children = (
 				EDB76F1323C98F80005BD0B5 /* AppDelegate.swift */,
 				EDB76F1523C98F80005BD0B5 /* SceneDelegate.swift */,
-				EDB76F1723C98F80005BD0B5 /* ViewController.swift */,
 				EDB76F1923C98F80005BD0B5 /* Main.storyboard */,
 				EDB76F1C23C98F80005BD0B5 /* Assets.xcassets */,
 				EDB76F1E23C98F80005BD0B5 /* LaunchScreen.storyboard */,
 				EDB76F2123C98F80005BD0B5 /* Info.plist */,
+				EDB76F4323C98FA4005BD0B5 /* GenreButtonScreen.swift */,
 			);
 			path = GenreMusicPlayer;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			);
 			name = GenreMusicPlayer;
 			productName = GenreMusicPlayer;
-			productReference = EDB76F1023C98F80005BD0B5 /* GenreMusicPlayer.app */;
+			productReference = EDB76F1023C98F80005BD0B5 /* Jukebox.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EDB76F2523C98F80005BD0B5 /* GenreMusicPlayerTests */ = {
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB76F1823C98F80005BD0B5 /* ViewController.swift in Sources */,
 				EDB76F1423C98F80005BD0B5 /* AppDelegate.swift in Sources */,
 				EDB76F1623C98F80005BD0B5 /* SceneDelegate.swift in Sources */,
+				EDB76F4423C98FA4005BD0B5 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacekendrick.GenreMusicPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jukebox;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacekendrick.GenreMusicPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Jukebox;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
